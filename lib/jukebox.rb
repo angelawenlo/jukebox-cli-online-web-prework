@@ -22,5 +22,5 @@ puts"
 end
 
 def play(songs)
-
+  binding.pry
 end
