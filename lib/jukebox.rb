@@ -20,3 +20,6 @@ puts"
 - play : lets you choose a song to play
 - exit : exits this program"
 end
+
+def play(songs)
+  
