@@ -33,5 +33,6 @@ def play(songs)
   songs.each_with_index |song, i|
   if user_input == song
     puts "Playing #{song}"
-  end
+   end
+ end
 end
