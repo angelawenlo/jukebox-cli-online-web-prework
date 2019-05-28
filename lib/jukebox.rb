@@ -46,5 +46,7 @@ def exit_jukebox
 end
 
 def run 
-
+help
+puts "Please enter a command:"
+user_command = get.chomps
 end
