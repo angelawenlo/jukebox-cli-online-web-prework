@@ -50,5 +50,5 @@ help
 puts "Please enter a command:"
 user_command = gets.chomp
 
-
+exit
 end
