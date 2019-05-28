@@ -13,5 +13,5 @@ songs = [
 ]
 
 def help
-  help << -HELP
+  help = << -HELP
 end
