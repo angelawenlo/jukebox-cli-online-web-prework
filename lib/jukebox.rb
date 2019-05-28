@@ -13,5 +13,5 @@ songs = [
 ]
 
 def help
-  
+  binding.pry
 end
