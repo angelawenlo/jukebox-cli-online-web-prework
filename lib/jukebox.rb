@@ -33,6 +33,9 @@ def play(songs)
   songs.each_with_index do |song, i|
   if user_input == song
     puts "Playing #{song}"
+  elsif user_input.to_i == i
+    puts "Playing #{song[i-1]}"
+  
    end
  end
 end
