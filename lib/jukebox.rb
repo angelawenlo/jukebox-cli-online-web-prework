@@ -21,6 +21,10 @@ puts"
 - exit : exits this program"
 end
 
+def list(songs)
+  songs.each_with_index do |song, i|
+    puts "#{i+1}. #{song}"
+end
 def play(songs)
-  binding.pry
+ puts
 end
